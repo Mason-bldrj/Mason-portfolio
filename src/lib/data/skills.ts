@@ -72,12 +72,12 @@ export const items = [
 		category: 'markup-style'
 	}),
 	defineSkill({
-		slug: 'sass',
-		color: 'pink',
+		slug: 'Tailwind',
+		color: 'blue',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass',
+		logo: Assets.Tailwind,
+		name: 'Twailwind',
 		category: 'markup-style'
 	}),
 	defineSkill({
@@ -90,11 +90,28 @@ export const items = [
 		category: 'library'
 	}),
 	defineSkill({
-		slug: 'svelte',
-		color: 'orange',
+		slug: 'expressjs',
+		color: 'yellow',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		logo: Assets.ExpressJs,
+		name: 'ExpressJs',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'NodeJS',
+		color: 'green',
 		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte',
+		logo: Assets.NodeJs,
+		name: 'nodejs',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'MongoDB',
+		color: 'green',
+		description: svelte,
+		logo: Assets.MongoDB,
+		name: 'MongoDB',
 		category: 'library'
 	})
 ] as const;
